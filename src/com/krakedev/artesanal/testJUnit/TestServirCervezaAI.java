@@ -24,6 +24,7 @@ public class TestServirCervezaAI {
 	public void testServirCervezaConCantidadSuficiente() {
 
 		Maquina maquina = new Maquina(
+				"C001" ,
 				"Pilsener",
 				"Cerveza rubia",
 				0.02,
@@ -47,6 +48,7 @@ public class TestServirCervezaAI {
 	public void testServirTodaLaCervezaDisponible() {
 
 		Maquina maquina = new Maquina(
+				"C002" ,
 				"Club",
 				"Cerveza premium",
 				0.03,
@@ -71,7 +73,8 @@ public class TestServirCervezaAI {
 	@Test
 	public void testNoServirCuandoCantidadEsInsuficiente() {
 
-		Maquina maquina = new Maquina(
+		Maquina maquina = new Maquina( 
+				"C003",
 				"Corona",
 				"Cerveza clara",
 				0.025);
@@ -98,6 +101,7 @@ public class TestServirCervezaAI {
 	public void testServirConMaquinaVacia() {
 
 		Maquina maquina = new Maquina(
+				"C004",
 				"Heineken",
 				"Cerveza importada",
 				0.04);
@@ -119,6 +123,7 @@ public class TestServirCervezaAI {
 	public void testCalcularValorConDecimales() {
 
 		Maquina maquina = new Maquina(
+				"C005",
 				"Stella Artois",
 				"Cerveza lager",
 				0.015,
@@ -142,6 +147,7 @@ public class TestServirCervezaAI {
 	public void testServirDespuesDeLlenarMaquina() {
 
 		Maquina maquina = new Maquina(
+				"C006",
 				"Pilsener Light",
 				"Cerveza ligera",
 				0.01);

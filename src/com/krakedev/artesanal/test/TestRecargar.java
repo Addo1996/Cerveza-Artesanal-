@@ -8,7 +8,7 @@ public class TestRecargar {
 		// TODO Auto-generated method stub
 		boolean resultado;
 
-		Maquina negra = new Maquina("Club", ": Con mas % de alcohol", 0.03, 8000);
+		Maquina negra = new Maquina("C001", "Club", ": Con mas % de alcohol", 0.03, 8000);
 		System.out.println("--------Estado Inicial-------");
 		negra.imprimir();
 

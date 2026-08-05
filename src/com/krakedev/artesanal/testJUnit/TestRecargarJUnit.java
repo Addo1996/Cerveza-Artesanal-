@@ -11,7 +11,7 @@ public class TestRecargarJUnit {
 	
 	@Test
 	public void testRecargaExitosa() {
-		Maquina rubia= new Maquina("Pilsener", "Cerveza", 0.02, 8000);
+		Maquina rubia= new Maquina("C001", "Pilsener", "Cerveza", 0.02, 8000);
 		
 		boolean resultado = rubia.recargarCerveza(3000);
 		assertTrue(resultado);
@@ -21,7 +21,7 @@ public class TestRecargarJUnit {
 	
 	@Test
 	public void testRecargaFallida() {
-		Maquina negra= new Maquina("Club", "Cerveza fría", 0.02, 8000);
+		Maquina negra= new Maquina("C002", "Club", "Cerveza fría", 0.02, 8000);
 		
 		negra.recargarCerveza(7000);
 		
