@@ -35,5 +35,18 @@ public class Curso {
 		this.estudiantes.add(estudiante);
 		 
 	}
+	
+	public Estudiante buscarPorCedula(double cedula) {
+
+	    for (Estudiante estudiante : estudiantes) {
+
+	        if (estudiante.getCedula() == cedula) {
+	            return estudiante;
+	        }
+
+	    }
+
+	    return null;
+	}
 
 }

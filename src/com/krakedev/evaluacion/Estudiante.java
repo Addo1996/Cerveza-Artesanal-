@@ -5,6 +5,8 @@ public class Estudiante {
 	private double Cedula;
 	private String Nombre;
 	private String Apellido;
+	
+	
 	public double getCedula() {
 		return Cedula;
 	}
